@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ita Cerâmica</title>
+    <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,6 +19,26 @@
     </header>
 
     <main class="container">
+
+        <section class="carousel">
+            <div class="backward-btn" onclick="goBackward()">&#8592;</div>
+            <div class="forward-btn" onclick="goBackward()">&#8594;</div>
+
+            <h1 id="carousel__title">Veja nossas cerâmicas</h1>
+            <div id="carousel__img-1" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/1.jpg)"></div>
+            <div id="carousel__img-2" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/2.jpg)"></div>
+            <div id="carousel__img-3" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/3.jpg)"></div>
+            <div id="carousel__img-4" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/4.jpg)"></div>
+            <div id="carousel__img-5" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/5.jpg)"></div>
+            <div id="carousel__img-6" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/6.jpg)"></div>
+            <div id="carousel__img-7" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/7.jpg)"></div>
+            <div id="carousel__img-8" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/8.jpg)"></div>
+            <div id="carousel__img-9" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/9.jpg)"></div>
+            <div id="carousel__img-10" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/10.jpg)"></div>
+            <div id="carousel__img-11" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/11.jpg)"></div>
+            <div id="carousel__img-12" class="carousel__img" style="background-image: url(./assets/imagens-de-cerâmicas/12.jpg)"></div>
+        </section>
+
         <section class="products-container">
             <div class="card">
                 <div class="product-image" id="img-1"></div>
@@ -124,6 +145,7 @@
                 
                 <br><br><span>ItaCerâmica &copy; 2021.</span>
         </footer>
+        <script src="./script.js"></script>
 </body>
 
 </html>
